@@ -95,13 +95,46 @@
             font-size: 0.8em;
             margin-right: 6px;
         }
+        .back-link {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .back-link a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9em;
+            opacity: 0.9;
+            transition: opacity 0.2s;
+        }
+        .back-link a:hover {
+            opacity: 1;
+        }
+        .logo-link {
+            display: block;
+            cursor: pointer;
+        }
+        .nav-footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .nav-footer a {
+            margin: 0 12px;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
+    <div class="back-link">
+        <a href="https://805streetfoods.com">← Back to 805StreetFoods</a>
+    </div>
     <div class="container">
-        <img src="https://805streetfoods.com/logo.png" alt="805StreetFoods" class="logo">
+        <a href="https://805streetfoods.com" class="logo-link">
+            <img src="https://805streetfoods.com/logo.png" alt="805StreetFoods" class="logo">
+        </a>
         <h1>805StreetFoods Support</h1>
-        <p class="subtitle">Your local food truck companion for California’s 805</p>
+        <p class="subtitle">Your local food truck companion for California's 805</p>
 
         <div class="highlight-box">
             <p><strong>Need help quickly?</strong><br>
@@ -201,8 +234,14 @@
             © 2025 805StreetFoods
         </p>
 
+        <div class="nav-footer">
+            <a href="https://805streetfoods.com">Home</a> •
+            <a href="https://privacy.805streetfoods.com">Privacy Policy</a> •
+            <a href="https://805streetfoods.com/terms">Terms of Service</a>
+        </div>
+
         <p class="footer">
-            Built locally with ❤️ in California’s 805.
+            Built locally with ❤️ in California's 805.
         </p>
     </div>
 </body>
