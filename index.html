@@ -1,124 +1,209 @@
- <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>805StreetFoods Support</title>
-      <meta name="description" content="Get help with the 805StreetFoods app — contact support, report issues, or
-   learn more about vendor access.">
-      <link rel="icon" type="image/png" href="/logo.png">
-      <style>
-          body {
-              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-              margin: 0;
-              padding: 20px;
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-              min-height: 100vh;
-              color: white;
-          }
-          .container {
-              max-width: 700px;
-              margin: 50px auto;
-              background: white;
-              border-radius: 20px;
-              padding: 40px;
-              box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-              color: #333;
-          }
-          .logo {
-              width: 120px;
-              height: 120px;
-              margin: 0 auto 20px;
-              border-radius: 25px;
-              box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-              display: block;
-          }
-          h1 {
-              color: #333;
-              font-size: 2.5em;
-              margin: 20px 0 10px;
-              text-align: center;
-          }
-          .subtitle {
-              text-align: center;
-              color: #666;
-              font-size: 1.1em;
-              margin-bottom: 30px;
-          }
-          h2 {
-              color: #667eea;
-              margin-top: 30px;
-              font-size: 1.5em;
-          }
-          p {
-              color: #555;
-              line-height: 1.6;
-              font-size: 1.05em;
-          }
-          ul {
-              color: #555;
-              line-height: 1.8;
-          }
-          a {
-              color: #007AFF;
-              text-decoration: none;
-              transition: opacity 0.2s;
-          }
-          a:hover {
-              opacity: 0.7;
-          }
-          .footer {
-              font-size: 14px;
-              color: #999;
-              margin-top: 40px;
-              text-align: center;
-              padding-top: 30px;
-              border-top: 1px solid #eee;
-          }
-      </style>
-  </head>
-  <body>
-      <div class="container">
-          <img src="https://805streetfoods.com/logo.png" alt="805 Street Foods" class="logo">
-          <h1>805StreetFoods Support</h1>
-          <p class="subtitle">Your local food truck companion for California's Central Coast</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>805StreetFoods Support</title>
+    <meta name="description" content="Get help with the 805StreetFoods app — contact support, request vendor access, report issues, or manage your account.">
+    <link rel="icon" type="image/png" href="/logo.png">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            color: #333;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: block;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin: 20px 0 10px;
+            text-align: center;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.05em;
+        }
+        ul {
+            color: #555;
+            line-height: 1.8;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        a:hover {
+            opacity: 0.7;
+        }
+        .footer {
+            font-size: 14px;
+            color: #999;
+            margin-top: 40px;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .highlight-box {
+            background: #f7f7ff;
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        .tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 999px;
+            background: #eef;
+            color: #555;
+            font-size: 0.8em;
+            margin-right: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://805streetfoods.com/logo.png" alt="805StreetFoods" class="logo">
+        <h1>805StreetFoods Support</h1>
+        <p class="subtitle">Your local food truck companion for California’s 805</p>
 
-          <h2>Need Help?</h2>
-          <p>
-              If you have any questions, encounter a bug, or want to suggest a feature,
-              please reach out anytime at
-              <a href="mailto:admin@805streetfoods.com">admin@805streetfoods.com</a>.
-          </p>
+        <div class="highlight-box">
+            <p><strong>Need help quickly?</strong><br>
+            Email us anytime at
+            <a href="mailto:admin@805streetfoods.com">admin@805streetfoods.com</a>.</p>
+            <p style="margin-top: 10px;">
+                <span class="tag">App Users</span>
+                <span class="tag">Vendors</span>
+                <span class="tag">Venues</span>
+                <span class="tag">Admins</span>
+            </p>
+        </div>
 
-          <h2>Common Topics</h2>
-          <ul>
-              <li>Requesting vendor access for your food truck</li>
-              <li>Reporting incorrect truck schedules or venue info</li>
-              <li>Troubleshooting map or location permissions</li>
-              <li>Submitting feedback or banner photos</li>
-          </ul>
+        <h2>How We Can Help</h2>
+        <p>805StreetFoods has different tools for different people: food truck fans, vendors, venues, and admins.  
+        Here are the most common things we help with:</p>
 
-          <h2>Privacy Policy</h2>
-          <p>
-              You can view our privacy policy here:
-              <a href="https://privacy.805streetfoods.com" target="_blank">Privacy Policy</a>
-          </p>
+        <h3>For Food Truck Fans (App Users)</h3>
+        <ul>
+            <li>Questions about today’s or upcoming truck schedules</li>
+            <li>Reporting incorrect event times, locations, or truck details</li>
+            <li>Issues with map, location permissions, or check-ins</li>
+            <li>Help with favorites, notifications, or badges</li>
+            <li>Questions about your account or sign-in (Apple, Google, email)</li>
+        </ul>
 
-          <h2>Follow Us</h2>
-          <p>
-              Stay connected on Instagram:
-              <a href="https://instagram.com/805streetfoods" target="_blank">@805StreetFoods</a>
-          </p>
+        <h3>For Vendors & Venues</h3>
+        <ul>
+            <li>Requesting vendor access for your food truck or venue</li>
+            <li>Help editing truck or venue profiles (logos, photos, links, dietary tags)</li>
+            <li>Scheduling, editing, or canceling events</li>
+            <li>Understanding Basic vs. Pro vendor features</li>
+            <li>Questions about featured placement and visibility</li>
+        </ul>
 
-          <h2>App Info</h2>
-          <p>
-              Version: Beta 0.3<br>
-              © 2025 805StreetFoods
-          </p>
+        <h3>Subscriptions & Billing (Vendors)</h3>
+        <p>
+            Vendor subscriptions and featured placement are managed on our external vendor site,
+            not through Apple’s in-app purchases.
+        </p>
+        <ul>
+            <li>Questions about your current subscription tier (Free, Basic, Pro)</li>
+            <li>Issues with access to Pro features (photos, notifications, status updates)</li>
+            <li>Featured boost visibility or expiration questions</li>
+            <li>Billing or subscription changes made on the vendor website</li>
+        </ul>
+        <p>
+            If you email us about billing, please include:
+        </p>
+        <ul>
+            <li>The email address you use to sign in</li>
+            <li>Your truck or venue name(s)</li>
+            <li>A short description of what changed or what you expected to see</li>
+        </ul>
 
-          <p class="footer">
-              Built locally with ❤️ in California's 805.
-          </p>
-      </div>
-  </body>
-  </html>
+        <h2>Account & Data Requests</h2>
+        <p>
+            You can always contact us about your account or your data at
+            <a href="mailto:admin@805streetfoods.com">admin@805streetfoods.com</a>.
+        </p>
+        <ul>
+            <li>Help accessing your account if you’re locked out</li>
+            <li>Updating your profile information if you can’t do it in the app</li>
+            <li>Requesting a copy of your data (favorites, check-ins, ratings, etc.)</li>
+            <li>Requesting account deletion and data removal where possible</li>
+        </ul>
+
+        <h2>Reporting a Bug or Issue</h2>
+        <p>When something isn’t working, details really help us fix it quickly.  
+        If you can, please include in your email:</p>
+        <ul>
+            <li>What you were trying to do (for example: “check in”, “favorite a truck”, “edit an event”)</li>
+            <li>What happened instead (error message, blank screen, crash, wrong data, etc.)</li>
+            <li>Your device model and iOS version (if you know it)</li>
+            <li>Approximate date/time the problem occurred</li>
+            <li>Screenshots if you’re comfortable sharing them</li>
+        </ul>
+
+        <h2>Legal & Privacy</h2>
+        <p>
+            You can review our full legal and privacy documents here:
+        </p>
+        <ul>
+            <li><a href="https://privacy.805streetfoods.com" target="_blank">Privacy Policy</a></li>
+            <li><a href="https://tos.805streetfoods.com" target="_blank">Terms of Service</a></li>
+        </ul>
+
+        <h2>Follow Us</h2>
+        <p>
+            Stay connected on Instagram:
+            <a href="https://instagram.com/805streetfoods" target="_blank">@805StreetFoods</a>
+        </p>
+
+        <h2>App Info</h2>
+        <p>
+            Version: Beta 0.3<br>
+            © 2025 805StreetFoods
+        </p>
+
+        <p class="footer">
+            Built locally with ❤️ in California’s 805.
+        </p>
+    </div>
+</body>
+</html>
